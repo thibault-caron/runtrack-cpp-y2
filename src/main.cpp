@@ -1,5 +1,5 @@
 #include "main.hpp"
-#include "day1.hpp"
+#include "day01/day01.hpp"
 
 int main() {
     std::string name = "Florence";
