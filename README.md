@@ -45,7 +45,7 @@ replace ./build/hello to the name of your executable (cf CMakeLists.txt last lin
 ```bash
 cmake -S . -B build        # configure build directory
 cmake --build build       # compile the project
-./build/hello             # run the resulting executable
+./build/hello          # run the resulting executable
 ```
 
 2. Keep the container open after running a command:
