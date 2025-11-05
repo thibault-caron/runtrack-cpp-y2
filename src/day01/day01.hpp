@@ -1,9 +1,9 @@
 #ifndef ONE_HPP
 #define ONE_HPP
+#include <array>
+#include <cmath>
 #include <iostream>
 #include <string>
-#include <array>
-#include <cmath> 
 
 void say_hello(std::string name);
 int mulitplyInteger(int a, int b);
@@ -18,5 +18,22 @@ void swapInteger(int& a, int& b);
 float getTaxesIncludedPrice(float priceWithoutTaxes, int taxesInPercentage);
 
 int revertNumber(int number);
+
+bool isLeapYear(int year);
+
+int findSmallestInt(int numbers[], int size);
+
+int findSmallestIntPointer(int* numbers[], int size);
+
+void swapValues(int& a, int& b);
+
+int doubleArray(int numbers[], int size);
+void printArray(int numbers[], int size);
+
+std::array<int, 10> finobacci(int n);
+
+bool hasEvenBits(uint32_t n);
+
+long cube(int value);
 
 #endif

@@ -38,6 +38,12 @@ docker compose exec dev bash -c "cmake -S . -B build && cmake --build build && .
 ```
 replace ./build/hello to the name of your executable (cf CMakeLists.txt last line add_executable)
 
+### Lauch an executable
+
+```bash
+docker compose exec dev bash -c "./build/hello"
+```
+
 ## Command to run inside container
 
 1. Build with Ninja (if you installed it):
