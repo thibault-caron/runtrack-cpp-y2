@@ -10,3 +10,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(hello 
     src/day01/main.cpp
     src/day01/day01.cpp)
+
+add_executable(day02
+    src/day02/day02.cpp
+    src/day02/terrestrial.cpp
+    src/day02/aquatic.cpp
+    src/day02/penguin.cpp
+    )
