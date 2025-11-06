@@ -76,7 +76,7 @@ int main() {
             }
 
             std::cout << "The smallest number is : "
-                        << findSmallestIntV2(numbersListV2, 5) << std::endl;
+                        << findSmallestIntPointer(numbersListV2, 5) << std::endl;
             break;
         }
         case 11: {
@@ -88,6 +88,7 @@ int main() {
         }
         case 12: {
                 // Job 12
+                int numbersList[5]{1, 2, 0, 5, 11};
                 printArray(numbersList, 5);
                 int doubleArraySum{doubleArray(numbersList, 5)};
                 std::cout << "sum is : " << doubleArraySum << std::endl;

@@ -1,4 +1,4 @@
-#include "day1.hpp"
+#include "day01.hpp"
 
 void say_hello(std::string name) {
   std::cout << "Hello, world! " << name << std::endl;
