@@ -22,8 +22,8 @@ void Penguin::displayNameAndTime(Penguin* penguin, MovementType type,
       strType = "";
   }
 
-  std::cout << penguin->getName() << " a parcouru " << distance << "mètres en "
-            << strType << penguin->getTime(type, distance) << "seconde."
+  std::cout << penguin->getName() << " a parcouru " << distance << " mètres en "
+            << strType << penguin->getTime(type, distance) << " seconde."
             << std::endl;
 }
 
