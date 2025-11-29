@@ -122,6 +122,37 @@ std::array<int, 10> finobacci(int n) {
   }
   return finobacci;
 }
+void better_fibo_last_ten(int n) {
+    long long a = 0;
+    long long b = 1;
+    int i = n - 10;
+
+    while (i >= 2) {
+        a = a + b;
+        b = a + b;
+        i -= 2;
+    }
+
+    if (i == 1) {
+        long long c = a + b;
+        a = b;
+        b = c;
+    }
+    a = a + b;
+    std::cout << b << " " << a << std::endl;
+    b = a + b;
+    a = a + b;
+    std::cout << b << " " << a << std::endl;
+    b = a + b;
+    a = a + b;
+    std::cout << b << " " << a << std::endl;
+    b = a + b;
+    a = a + b;
+    std::cout << b << " " << a << std::endl;
+    b = a + b;
+    a = a + b;
+    std::cout << b << " " << a << std::endl;
+}
 
 bool hasEvenBits(uint32_t n) {
   int count = 0;

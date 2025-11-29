@@ -97,7 +97,7 @@ int main() {
         }
         case 13: {
             // Job 13 finobacci
-            std::array<int, 10> finobacciArr = finobacci(20);
+            std::array<int, 10> finobacciArr = better_fibo_last_ten(20);
             for (int number : finobacciArr) {
                 std::cout << number << " " << std::endl;
             }
